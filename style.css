@@ -1,0 +1,139 @@
+/* general body styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2E4053;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+/* container styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* card styling */
+.card {
+    background-color: #D0E2E8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    width: 100%;
+}
+
+/* title */
+.card h1 {
+    color: #2E4053;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Input content */
+.input-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #2E4053;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-group button {
+    background-color: #536878;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-group button:hover {
+    background-color: #2E4053;
+}
+
+/* shopping list */
+.shopping-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.shopping-list button {
+    background-color: #89A9B4; 
+    border: none;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+
+.shopping-list button:hover {
+    background-color: #536878;
+ }
+
+.shopping-list li {
+    background-color: #A9D1DB;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    align-items: center;
+    color: #2E4053;
+}
+
+/* Styling the checkbox */
+.shopping-list input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.4);
+    cursor: pointer;
+  }
+
+.shopping-list li span {
+    flex-grow: 1;
+    text-align: left;
+}
+
+/* Purchased list item */
+.shopping-list li.purchased span{
+    text-decoration: line-through;
+    background-color: #89A9B4;
+    color: #FFFFFF;
+  }
+  
+
+/* Clear Button */
+#clearButton {
+    background-color: #536878;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+#clearButton:hover {
+    background-color: #2E4053;
+}

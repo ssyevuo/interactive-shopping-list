@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping List</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">  <!-- container for the shopping list-->
+            <div class="card"> <!--card to help with styling-->
+                <h1>Shopping List</h1>
+                <div class="input-group"> <!--to input the shopping items-->
+                    <input type="text" id="itemInput" placeholder="Add to your list">
+                    <button id="addButton">Add Item</button>
+                </div>
+                <ul class="shopping-list" id="shoppingList"></ul> <!--to order the list -->
+                <button id="clearButton">Clear List</button>
+            </div>
+        </div>
+        <script src="shopping.js"></script>
+    </body>
+</html>
