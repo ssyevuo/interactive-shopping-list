@@ -1,5 +1,6 @@
 # Code Challenge: Interactive Shopping List
-This is an application that is majorly focused on users shopping list. Users have the ability to add products to the list, edit the items, mark the items as purchased thanks to the help of the checkbox and the linethrough, and clear an entire list. As a bonus the application has the ability to make use of local storage to help maintain the data even after the page has been reloaded.
+First, this is the live link to the application: https://ssyevuo.github.io/interactive-shopping-list/
+This is an application that is majorly focused on users' shopping lists. Users can add products to the list, edit the items, mark the items as purchased thanks to the help of the checkbox and the line through, and clear an entire list. As a bonus, the application can make use of local storage to help maintain the data even after the page has been reloaded.
 
 ## Features
 This website is made a success by the help of various features as stated below:
@@ -12,7 +13,7 @@ This website is made a success by the help of various features as stated below:
 
 **Clear List:** This feature helps users clear the purchase list after getting done with using the list.
 
-**Persistent Storage:** This feature ensures that the shopping list items are stored in local storage to ensure that the list remains even after page relloading.
+**Persistent Storage:** This feature ensures that the shopping list items are stored in local storage to ensure that the list remains even after page reloading.
 
 ## Technologies Used
 **HTML:** The HyperText Markup Language helps with structuring the website
@@ -22,7 +23,7 @@ This website is made a success by the help of various features as stated below:
 ## Setup and Installation
 1. Clone the repository (git clone)
 2. navigate to the projects folder (cd)
-3. open the index.html file in your web application that is chrome, mozilla etc.
+3. open the index.html file in your web application such as Chrome, Mozilla etc.
 
 ## License
 This project is licensed under the **MIT License.**
